@@ -1,5 +1,5 @@
 export default function landingPage(){
   return (
-    <h1>Hola desde Landing Page</h1>
+    <h1 className="text-white">Landing Page</h1>
   )
 }

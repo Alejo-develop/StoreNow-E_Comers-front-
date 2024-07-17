@@ -1,5 +1,7 @@
 export default function NavbarComponent(){
     return (
-      <h1>Hola desde navbar</h1>
+      <nav>
+        <h2 className="text-white">Navbar</h2>
+      </nav>
     )
   }

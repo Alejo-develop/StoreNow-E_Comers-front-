@@ -1,5 +1,7 @@
 export default function FooterComponent(){
     return (
-      <h1>Hola desde footer</h1>
+      <footer className="absolute bottom-0">
+        <h2 className="text-white ">Footer</h2>
+      </footer>
     )
   }

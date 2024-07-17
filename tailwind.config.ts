@@ -9,10 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        'dark-gradient': 'linear-gradient(rgba(72, 24, 120), rgba(0, 0, 0, 0))',
-      },
-      colors: {
-        darkBg: 'var(--dark-gradient)',
+        'dark-gradient': 'linear-gradient(to bottom, black, rgba(72, 24, 120, 1))',
       },
     },
   },
@@ -20,4 +17,3 @@ const config: Config = {
 };
 
 export default config;
-
